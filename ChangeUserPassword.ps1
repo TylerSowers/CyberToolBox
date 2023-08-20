@@ -1,0 +1,1 @@
+﻿Set-ADAccountPassword -Identity 'Username' -Reset -NewPassword (ConvertTo-SecureString -AsPlainText "password" -Force)
